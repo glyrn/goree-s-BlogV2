@@ -29,6 +29,8 @@ cover: /img/default.avif
 
 还是非常的好看的
 
+写了一个部署操作手册 [[blog 部署SOP]]
+
 心得体会
 
 -
