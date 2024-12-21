@@ -42,6 +42,7 @@ nav:
       文章: /archives/ || fas fa-folder-closed # item name: link || icon
       分类: /categories/ || fas fa-clone
       标签: /tags/ || fas fa-tags
+      库owner: /about || fas fa-user
     # 友链:
     #   朋友圈: /moments/ || fas fa-wifi
     #   友情链接: /links/ || fas fa-user-group
@@ -92,12 +93,14 @@ hometop:
         img: https://i.postimg.cc/nhgjwjCS/git.png
         color: "#df5b40"
   group:
-    热门: /tags/juc/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
-    大学: /tags/juc/ || fas fa-gamepad || linear-gradient(to right,#8a2be2,#9370db)
+    技术: /tags/技术/ || fas fa-search || linear-gradient(to right,#f65,#ffbf37)
+    # 日记: /categories/daily/ || fas fa-gamepad || linear-gradient(to right,#8a2be2,#9370db)
+    # 热门: /tags/技术/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    日记: /categories/daily/ || fas fa-book || linear-gradient(to right,#8a2be2,#9370db)
   recommendList:
     enable: true
     sup: 置顶
-    title: Solitude 官方文档
+    title: 广告位招租
     url: https://solitude.js.org/
     img: /img/default.avif
     color: ""
