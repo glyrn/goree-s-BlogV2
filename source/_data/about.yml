@@ -1,0 +1,166 @@
+authorinfo:
+  leftTags:
+    - 🤖️ 技术爱好者 
+    - 🔧 Bug的终结者
+    - 👻 认真搞怪
+  rightTags:
+    - 结果比过程重要 🏃
+    - 游戏人生 🎮
+    - 摸鱼大王 🐟
+  image: /img/avatar.jpeg
+
+title: about me
+
+contentinfo: # Top personal information display
+  sup: 你好，很高兴认识你👋
+  name: 我是郭霖运 # Name
+  title: 全栈软件工程师 | 独立开发者 # Introduction
+  tip: 追求卓越
+  slogan: 热爱是最好的答案
+  mask:
+    - 人生是一场豪赌
+    - 享受过程
+    - 干了这杯咖啡，世界继续转
+
+
+skills: # Add as needed
+  title: 技能
+  subtitle: 解锁创造力
+  tags:
+    - title: HTML
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/HTML.png  #img 可使用图片
+      icon: fab fa-html5  # icon 可使用 Font Awesome 图标 / img 和 icon 属性不应同时使用
+      color: "#e9572b"
+    - title: Javascript
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/JS.png
+      color: "#f7cb4f"
+    - title: Kotlin
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/kotlin-logo.svg
+      color: "#ffffff"
+    - title: WebPack
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+      color: "#2e3a41"
+    - title: Git
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/git.png
+      color: "#df5b40"
+    - title: Docker
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/webpack.png
+      color: "#57b6e6"
+    - title: Visual Studio
+      img: https://npm.elemecdn.com/wleelw-blog-abs@1.0.0/img/icon/vs-logo.svg
+      color: "#ffffff"
+    - title: Java
+      icon: fab fa-java
+      color: "#e9572b" # todo 搬运
+
+
+careers:
+  # title: 经历
+  subtitle: Timeline
+  items:
+  #   - school: 信息管理与信息管理
+  #     major: 学习
+  #     color: "#357ef5"
+  image: /img/personalInfo.png # https://7.isyangs.cn/1/65eb2d10ba24d-1.png
+
+
+# personalities:
+#   tips: 性格
+#   title: 执行者
+#   color: "#56a178"
+#   type: ESFJ-A
+#   image: https://ui.everfu.cn/cover/202408271816314.svg
+#   link: https://www.16personalities.com/
+#   linkText: 16personalities
+#   typeLink: https://www.16personalities.com/ch/esfj-人格
+#   typeName: 执行者
+#   myphoto: https://niu.goree.tech/2024/12/15/21:04:25%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87.jpg
+
+# motto:
+#   title: 座右铭
+#   prefix: 破釜沉舟，
+#   content: 勇往直前。
+
+oneself: # Fill in as needed
+  location: 中国, 杭州 # Location
+  birthYear: 2003 # Birthday
+  university: 东北大学 # Graduated from
+  major: 信息系统与信息管理 # Major
+  occupation: 程序员 # Occupation
+  map: # Map of your location
+    light: https://7.isyangs.cn/1/65eb2ec63a9aa-1.png # Daytime
+    dark: https://7.isyangs.cn/1/65eb2eedc780e-1.png # Nighttime
+
+# expertise:
+#   title: 专长
+#   prefix: 数学, 物理, 化学
+#   specialist: 专家
+#   content: 学习能力
+#   level: MAX
+
+# game:
+#   - title: 游戏爱好
+#     img: https://7.isyangs.cn/66/6738b3614140c-66.webp
+#     subtitle: 英雄联盟
+#     box_shadow: '0 -69px 203px 11px #04120f inset'
+#     icon_group:
+#       - https://7.isyangs.cn/66/6738b472ce11f-66.webp
+#       - https://7.isyangs.cn/66/6738b48045a5b-66.webp
+#     tips_right: 比尔吉沃特
+#   - title: 游戏爱好
+#     img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
+#     subtitle: 狼人杀
+#     box_shadow: '0 -69px 203px 11px #415dc9 inset'
+#     tips_left: ID 1333E3FF
+
+# likes:
+#   - type: like-technology
+#     bg: https://7.isyangs.cn/66/6738b3606d9d3-66.webp
+#     tips: 兴趣偏好
+#     title: 数码科技
+#     subtips: 手机、电脑软硬件
+#   - type: like-music
+#     bg: https://7.isyangs.cn/66/6738b36015cb7-66.webp
+#     tips: 音乐偏好
+#     title: Hiphop、民谣、华语流行
+#     subtips: 跟 伍十七 一起欣赏更多音乐
+#     button: false
+#     button_text: 更多推荐
+#     button_link: /music/
+
+tj:
+  provider: custom # Value can be 51la (51la website statistics) or custom
+  url: https://api.everfu.cn/pv/ # Need to register and obtain from the 51la official website or set up your own Baidu statistics project and fill in the access address
+  img: https://7.isyangs.cn/1/65eb2e9109826-1.png # Background
+
+
+tenyear:
+  tips: 十年之约
+  title: Be A Good Man
+  start: 2023-11-23
+  end: 2033-04-20
+
+award:
+  enable: true
+  description: 名字如有雷同，纯属巧合
+  tips: '总金额: ¥ {sum}, 将用于博客的维护和更新。'
+rewardList: # Bottom donations
+  - name: 字节挑动
+    money: 100000
+    time: 2024-12-15
+    icon: fab fa-tiktok
+    vip: true
+  - name: 阿里阿巴
+    money: 100000
+    time: 2024-12-15
+    icon: fab fa-alipay
+    vip: true
+  - name: 滕讯
+    money: 100000
+    time: 2024-12-20
+    icon: fab fa-weixin
+  - name: 郭箖运
+    money: 9999999
+    time: 2024-12-20
+    icon: fab fa-cc-visa
+    vip: true
