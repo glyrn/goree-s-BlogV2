@@ -1,7 +1,7 @@
 ---
 title: blog 部署SOP
 date: 2024-12-22 01:41:41
-categories: life
+categories: 博客部署
 updated: 
 cover: /img/default.avif
 tags:
