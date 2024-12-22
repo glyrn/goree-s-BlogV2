@@ -7,7 +7,7 @@ tags:
   - ssh
   - 技术
 categories: CI流
-cover: /img/default.avif
+cover: https://niu.goree.tech/2024/12/22/16:47:261734857246298.png
 ---
 > 作为一个新手入门`github_action`由于对不对成加密不熟悉，可谓走了很多弯路，历时两天终于把这个搞明白了
 
