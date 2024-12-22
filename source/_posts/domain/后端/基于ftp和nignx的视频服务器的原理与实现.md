@@ -11,6 +11,7 @@ tags:
   - ftp
   - docker
 categories: 后端
+cover: /img/default.avif
 ---
 # 基于ftp和nignx的视频服务器的原理与实现
 

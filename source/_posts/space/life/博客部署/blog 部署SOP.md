@@ -7,6 +7,7 @@ cover: /img/default.avif
 tags:
   - 脚本
   - 技术
+  - SOP
 ---
 ## 同步知识库与blog库文件diff 
 
@@ -16,7 +17,13 @@ tags:
 python D:\obsidianKnowledgeV2.0\space\life\博客部署\sync_blog.py
 ```
 
-## 登录服务器执行服务重启
+## 服务器拉取数据
+
+```shell
+sh /root/goree_blog/obsidian/goree-s-BlogV2/sync_blog.sh
+```
+
+## 重启服务 (更新配置执行)
 
 ```shell
 sh /root/goree_blog/obsidian/goree-s-BlogV2/restart.sh
