@@ -1,7 +1,7 @@
 ---
 title: hexo_blog 同步脚本
 date: 2024-12-21 22:53:16
-categories: domain
+categories: 博客部署
 updated: 2024-12-21 23:54:45
 cover: /img/default.avif
 ---

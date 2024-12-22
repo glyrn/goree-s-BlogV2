@@ -13,7 +13,7 @@ tags:
 >注意为了方便个人pc使用，这里采用绝对路径直接调用
 
 ```shell
-python D:\obsidianKnowledgeV2.0\domain\sync_blog.py
+python D:\obsidianKnowledgeV2.0\space\life\博客部署\sync_blog.py
 ```
 
 ## 登录服务器执行服务重启
