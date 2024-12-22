@@ -72,7 +72,7 @@ hometop:
   enable: true
   banner:
     title: 偶尔摆烂 <br> 经常偶尔 # 标题 # 梦里有的 <br> 总会有的
-    url: https://goree.tech # 小字
+    url: https://blog.goree.tech # 小字
     icon:
       HTML: # name
         img: https://i.postimg.cc/vBWVnY8q/html.png # url
@@ -101,7 +101,7 @@ hometop:
     enable: true
     sup: 置顶
     title: 广告位招租
-    url: https://solitude.js.org/
+    url: https://baidu.com # https://solitude.js.org/
     img: /img/default.avif
     color: ""
 
@@ -181,7 +181,7 @@ aside:
   # 文章目录
   toc:
     post: true
-    page: false
+    page: true
     vague: true
   # --------------------------- end ---------------------------
 
@@ -213,7 +213,7 @@ aside:
     postcount: true
     # Total number of words
     # 总字数
-    wordcount: false
+    wordcount: true
     # PV
     pv: true
     # UV
@@ -226,7 +226,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: 2023-8-20 00:00:00
+    runtime: 2023-8-31 00:00:00
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -300,11 +300,11 @@ post:
     locate: true
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
-    pv: false
+    pv: true
     # Comment count
     # 评论数
     comment: false
@@ -328,18 +328,17 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
-      # - qq
-      # - weibo
-      # - twitter
-      # - facebook
-      # - telegram
-      # - whatsapp
-      # - linkedin
-      # - link
-      # - qrcode
-  rss: # /atom.xml
+      - qq
+      - weibo
+      - twitter
+      - facebook
+      - telegram
+      - whatsapp
+      - linkedin
+      - link # qrcode
+  rss:  /atom.xml
   # Article reading progress
   # 文章封面取色
   covercolor:
@@ -351,11 +350,11 @@ post:
     # Storage / 缓存时间
     time: 43200000
   footer:
-    enable: false
-    desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
+    enable: true
+    desc: Articles from blog.goree.tech # / 文章来自 Ever Fu # description
     button: # Button
       enable: true
-      name: # Learn more / 了解更多
+      name: Learn more # / 了解更多
       url: /about/
 # --------------------------- end ---------------------------
 
@@ -363,7 +362,7 @@ post:
 # Custom Theme Color
 theme_color:
   dark: "#ffc848" # dark
-  light: "#425AEF" # light
+  light: "#b399ff" # "#425AEF" # light
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -375,7 +374,7 @@ display_mode:
   type: auto
   # After opening, the dark mode will display the starry sky background
   # 开启后深色模式会显示星空背景
-  universe: false
+  universe: true
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -408,8 +407,8 @@ background:
 # 当用户退出页面时，修改标题
 lure:
   enable: true
-  jump: 404 Not Found
-  back: ヾ(≧∇≦*)ゝHey, hey, you fell for it.
+  jump: 地球爆炸倒计时 3 2 1 !
+  back: ヾ(≧∇≦*)ゝ哈哈 骗你的
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -428,7 +427,7 @@ expire:
 # 首页文章配置信息
 index_post_list:
   direction: column # row / column
-  column: 2 # 2: 2 columns 3: 3 columns
+  column: 3 # 2: 2 columns 3: 3 columns
   cover: both
 # --------------------------- end ---------------------------
 
@@ -581,9 +580,9 @@ footer:
 
   # 备案
   beian:
-    # - name: 湘公网安备43048102000175号
-    #   icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
-    #   url: https://beian.mps.gov.cn/#/query/webSearch
+     - name: 冀ICP备2023035339号
+       icon: https://beian.mps.gov.cn/img/logo01.dd7ff50e.png
+       url: https://beian.mps.gov.cn/#/query/webSearch
     # - name: 湘ICP备2024080357号-1
     #   url: https://beian.miit.gov.cn/
 
@@ -601,7 +600,7 @@ footer:
 # 404 页面
 errorpage:
   img: /img/404.avif
-  text: =awa= Page Not Found # Text
+  text: Page Not Found # Text
   recommendList: true
 # --------------------------- end ---------------------------
 
