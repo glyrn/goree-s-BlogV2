@@ -4,6 +4,8 @@ date: 2024-12-21 00:03:59
 categories: daily
 updated: 2024-12-21 17:03:23
 cover: /img/default.avif
+tags:
+  - 记录
 ---
 
 > 上一天: [[2024, December 20 - Friday]]

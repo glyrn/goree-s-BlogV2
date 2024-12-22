@@ -4,8 +4,10 @@ date: 2024-12-21 00:00:39
 categories: daily
 updated: 2024-12-21 00:01:46
 cover: /img/default.avif
+tags:
+  - 记录
 ---
-> 上一天: 暂无上一天的日记
+> 上一天: [[2024, December 18 - Wednesday]]
 
 ## 🌟 今日目标
 
