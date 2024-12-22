@@ -5,6 +5,7 @@ tags:
   - github_action
   - 服务器
   - ssh
+  - 技术
 categories: CI流
 cover: /img/default.avif
 ---

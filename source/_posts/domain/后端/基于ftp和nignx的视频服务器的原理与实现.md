@@ -10,6 +10,7 @@ tags:
   - nginx
   - ftp
   - docker
+  - 技术
 categories: 后端
 cover: /img/default.avif
 ---
