@@ -1,7 +1,7 @@
 ---
 title: 2024, December 26 - Thursday
 date: 2024-12-29 23:54:52
-categories: inbox
+categories: daily
 updated: 
 cover: /img/default.avif
 tags:

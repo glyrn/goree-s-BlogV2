@@ -1,7 +1,7 @@
 ---
 title: 2024, December 27 - Friday
 date: 2024-12-29 23:55:51
-categories: inbox
+categories: daily
 updated: 
 cover: /img/default.avif
 tags:

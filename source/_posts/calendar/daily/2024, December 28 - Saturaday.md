@@ -1,7 +1,7 @@
 ---
 title: 2024, December 28 - Saturaday
 date: 2024-12-29 23:56:37
-categories: inbox
+categories: daily
 updated: 
 cover: /img/default.avif
 tags:
