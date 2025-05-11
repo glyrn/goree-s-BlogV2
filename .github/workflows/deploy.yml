@@ -9,22 +9,32 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      # 1. 拉取代码，允许后面 push
+      - name: Checkout main
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
-      - name: Setup Node.js & 缓存
+      # 2. 安装 Node.js 并缓存 npm 依赖
+      - name: Setup Node.js & cache
         uses: actions/setup-node@v3
         with:
           node-version: '16'
           cache: 'npm'
 
+      # 3. 安装依赖、生成静态文件到 docs/ 并禁用 Jekyll
       - name: Install & Generate
         run: |
           npm ci
           npx hexo generate
+          touch docs/.nojekyll
 
-      - name: Deploy to main/docs
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs
-          # publish_branch: 这里不用填，默认推到 main 分支根目录
+      # 4. 将 docs/ 提交回 main
+      - name: Commit and Push docs to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "ci: generate and deploy docs" || echo "No changes to commit"
+          git push origin HEAD:main
