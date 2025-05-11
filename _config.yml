@@ -102,3 +102,9 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+
+# 你网站上线后的域名，Hexo 会据此生成 RSS、Sitemap 之类
+url: https://glyrn.github.io
+# “根路径”——就是你 repo 对应的子目录
+root: /goree-s-BlogV2/
